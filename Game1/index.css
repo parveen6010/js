@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&family=Readex+Pro:wght@600&family=Roboto+Mono:wght@100&family=Roboto:ital@1&family=Source+Sans+Pro:ital@0;1&family=Ubuntu:wght@300&family=Varela&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark:#350363;
+    --background: #fff;
+}
+html{
+    font-size: 62.5%;
+  font-family: 'Courier New', Courier, monospace ;
+}
+
+body{
+    width: 100vw;  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #350363;
+}
+main{
+   
+    width: 50vw;
+    text-align: center;
+    height: auto;
+    background-color: #fff;
+    border: solid var(--dark);
+    border-width: 8rem;
+    padding: 4rem 3rem;
+}
+
+#welcomescreen .image{
+   width: 70%;
+   max-height: 220px;
+   height: auto;
+   margin: 0 0 10px 0;
+}
+
+h2{
+    font-size: 17px;
+    margin: 10px;
+}
+
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+}
+
+.button-wraper{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   margin: 20px 0 40px 0;   
+}
+
+button{
+    min-width: 280px;
+    background-color:black;
+    color: #fff;
+    height: 2vh;
+    border-radius: 8px;
+    border-style: none;
+    padding: 25px 0 45px 0;
+    font-size: 15px;
+    text-align: center;
+   margin-bottom: 20px;
+   box-shadow: rgba(0, 0, 0, 0.2) 0 3px 8px;
+
+   cursor: pointer;
+   user-select: none;
+   -webkit-user-select: none;
+   text-transform: capitalize ;
+}
+
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 3px 90px;
+    transition-duration: 0.2s;
+    background-color: #350363;
+    color: bisque;
+}
+button:last-child{
+    margin-bottom: 0 ;
+}
+
+#gamearea{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newgamebutton button{
+    margin: 20px 0;
+}
+
+input{
+    border: 1px solid lightcoral;
+    background: transparent;
+    margin: 4opx 0;
+    padding: 20px 0;
+    width: 250px;
+    text-align: center ;
+}
+.static{
+    text-align: left;
+    margin: 20px;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.info span{
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+}
