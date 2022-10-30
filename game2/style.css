@@ -58,17 +58,20 @@ box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
     background-color: thistle;
 
  }
- 
+
+
+
  #showscore{
     box-shadow: 0 20px 10px  rgba(0, 0, 0, 0.2);
     background-color: #dfe6e9;
     margin-top: 30px;
     padding: 30px 40px;
     height: auto;
- }
-
- .scorearea{
     display: "none";
+ }
+ 
+.scorearea{
+    display: none;
 }
 
  h3{

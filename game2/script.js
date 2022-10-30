@@ -82,8 +82,8 @@ submit.addEventListener('click' , () => {
       if(checkedanswer == quizDB[questioncont].ans){
         score++;
       }
+
       questioncont++;
- 
       deslectall();
 
       if(questioncont < quizDB.length){
@@ -94,6 +94,9 @@ submit.addEventListener('click' , () => {
         <h3> Your Score ${score}/${quizDB.length} 🌞 </h3> 
         <button class = "btn" onclick = "location.reload() ">New Game<button>
         `;
-     
+
+   showscore.classList.remove("scorearea");
+
+         document.querySelector(".inner-div").style.display = "none";
       }
 });
