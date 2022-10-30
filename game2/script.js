@@ -92,7 +92,7 @@ submit.addEventListener('click' , () => {
       }else{
         showscore.innerHTML = `
         <h3> Your Score ${score}/${quizDB.length} 🌞 </h3> 
-        <button class = "btn" onclick = "location.reload() ">New Game<button>
+        <button class = "btn" onclick = "location.reload() ">play Again<button>
         `;
 
    showscore.classList.remove("scorearea");
