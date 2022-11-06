@@ -16,5 +16,5 @@ charval.addEventListener('keyup' , () => updateCounter() );
 const copyText = () =>{
   charval.select();  
   charval.setSelectionRange(0,9999);
-  navigator.clipboard.writeText(charval.value);
+  navigator.clipboard.writeText(charval.v)
 };  
